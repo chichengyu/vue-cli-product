@@ -3,7 +3,7 @@
 ## 1.index.html
 在首页模板中的 meta 标签改为如下这样
 ``` 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,er-scalable=no"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,er-scalable=no"> 
 ```
 解决用户放大缩小页面
 
@@ -12,18 +12,33 @@
 
 ## 3.fastclick
 fastclick 包解决移动端 click 事件300毫秒延迟
-安装 ：``` npm install fastclick --save ```
-使用 ：``` import fastClick from 'fastclick'
-		  fastClick.attach(document.body) ```
+安装 ：``` npm install fastclick --save ```  
+使用 ：
+``` 
+  import fastClick from 'fastclick'
+  fastClick.attach(document.body) 
+```
 
 ## 4.stylus
 stylus 跟 less 、scss 很像，语法也差不多，不过本人偏向习惯于 stylus
 ``` 
-	npm install stylus --save
-	npm install stylus-loader --save
+  npm install stylus --save
+  npm install stylus-loader --save
 ```
 
 ## 5.babel-polyfill
-babel-polyfill 包是用来解决部分浏览器或手机不支持 Promise
-安装 ：``` npm install babel-polyfill --save ```
-使用 ：``` mport 'babel-polyfill'; // 或者require('babel-polyfill'); ```
+babel-polyfill 包是用来解决部分浏览器或手机不支持 Promise  
+安装 ：``` npm install babel-polyfill --save ```  
+使用 ：
+``` 
+  mport 'babel-polyfill'; // 或者require('babel-polyfill'); 
+```
+
+## 6.better-scroll
+移动端手指上下滑动的效果
+
+## 7.vue-awesome-swiper
+移动端轮播特效，git地址： ``` https://github.com/surmon-china/vue-awesome-swiper ```
+
+## 8.axios
+发出http请求，git地址： ``` https://github.com/axios/axios ```
