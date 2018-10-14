@@ -4,7 +4,7 @@
     <!-- <router-view></router-view> -->
     <transition name='run' mode='out-in' appear>
       <!-- 优化 keep-alive 缓存 
-        exclude='组件名称' 排序不需要缓存的组件
+        exclude='组件名称' 排除不需要缓存的组件
       -->
     	<keep-alive exclude='Detail'>
         <router-view /> 
